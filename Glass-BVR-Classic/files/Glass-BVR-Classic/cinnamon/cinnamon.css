@@ -1,0 +1,36 @@
+/*
+===============================================================================================================
+	(EN) General.
+===============================================================================================================
+*/
+
+
+stage {
+	font-family: Liberation Sans;
+
+	color: rgb(230, 230, 230);
+}
+
+
+.cinnamon-link {
+	text-decoration: underline;
+
+	color: #f07746;
+}
+.cinnamon-link:hover {
+	color: #333;
+}
+
+
+StScrollBar {
+	padding: 0px;
+}
+
+StScrollView.vfade {
+	-st-vfade-offset: 68px;
+}
+
+StScrollView StScrollBar {
+	min-width: 20px;
+	min-height: 16px;
+}
